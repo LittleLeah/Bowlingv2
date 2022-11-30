@@ -19,7 +19,7 @@ public class Frame {
 	}
 	private void isLegalNumberOfPins(int pins) throws Exception {
 		if (pins < 0 || pins > 10) {
-			throw new Exception("Number of pins should be between 0 and 10");
+			throw new Exception("Number of pins should be between 0 and 10...");
 		}
 	}
 	
